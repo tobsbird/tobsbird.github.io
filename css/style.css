@@ -1,0 +1,58 @@
+/*ids*/
+#welcome{
+	background-color: rgba(48, 4, 159, .71);
+	height: 200px;
+	margin-left: -1%;
+	margin-right: -1%;
+}
+
+#w_intro{
+	font-size: 35px;
+	color: white;
+	padding-top: 9%;
+}
+
+#links{
+
+}
+
+#connect_me{
+	margin-bottom: 18px;
+}
+
+/*classes*/
+.sect{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.row{
+	display: flex;
+}
+
+.h_center{
+	vertical-align: middle;
+}
+.con_img{
+	/*display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 0%;*/
+	position: relative:
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.init_cont{
+	font-size: 20px;
+}
+
+.proj_desc{
+	text-align: center;
+	font-size: 18px;
+}
+
+.proj_desc .col-sm-4 p{
+	margin-top: 5px;
+}
