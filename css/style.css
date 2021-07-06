@@ -1,14 +1,19 @@
 /*ids*/
 #welcome{
-	background-image: url('../resources/street_background.jpg');
-	background-size: 93%;
+	background-image: url('../resources/canyon.jpg');
+	background-size: 98%;
 	background-repeat: no-repeat;
 	background-position: top;
-	padding-bottom: 105px;
+	padding-bottom: 20%;
+}
+
+#intro_info{
+	/*background-color: white;*/
+	width: fit-content;
 }
 
 #w_intro{
-	font-size: 35px;
+	font-size: 67px;
 	color: black;
 	padding-top: 16%;
 }
@@ -46,6 +51,35 @@
 	min-height: 1px;
 	padding-right: 15px;
 	padding-left: 15px;
+}
+
+.intro_con_img{
+	/*display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 0%;*/
+	height: fit-content;
+	position: relative;
+	min-height: 1px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.intro_connect{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.intro_conn_info{
+	font-size: 17px;
+	font-weight: bold;
+	color: black;
 }
 
 .init_cont{
